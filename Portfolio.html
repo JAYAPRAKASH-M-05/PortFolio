@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu">
+            <div class="name">
+                <h1>JP</h1>
+            </div>
+            <ul>
+                <li><a id="a" href="#" onclick="showSection('home')">Home</a></li>
+                <li><a id="a" href="#" onclick="showSection('about')">About</a></li>
+                <li><a id="a" href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a id="a" href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a id="a" href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <section class="mainsec">
+        <div class="container" id="home">
+            <div class="home-info">
+                <h3 class="hello">Hello, I'am <span class="myname">Jayaprakash</span></h3>
+                <h3 class="profession">I'am a <span class="typing">Web Developer</span></h3>
+                <p>I'am a 3rd year Computer Science & Engineering Student @ Adhi College of Engineering and Technology.</p>
+                <div class="home-icons">
+                    <a class="icon" href="https://www.instagram.com/jayaprakash__05?igsh=czAyM2FoMzN5MjJt">
+                        <i class="fa-brands fa-square-instagram" id="insta" style="color: #e70d6c;"></i>
+                    </a>
+                    <a class="icon" href="https://www.linkedin.com/in/jayaprakash-m-908371255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <i class="fa-brands fa-linkedin" id="linkedin" style="color: #18a5ec;"></i>
+                    </a>
+                    <a class="icon">
+                        <i class="fa-brands fa-square-whatsapp" id="whatsapp" style="color: #05f521;"></i>
+                    </a>
+                    <a class="icon">
+                        <i class="fa-brands fa-square-github" id="github" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="resume">
+                    <a href="Resume (1).pdf" download="Jayaprakash-resume" class="resume-btn">Download My CV</a>
+                </div>
+            </div>
+            <div class="profile-img">
+                <img class="img" src="pic 5.jpg" alt="imgage">
+            </div>
+        </div>
+
+        <div class="about-container" id="about">
+            <div class="about-info">
+                <h3 class="about">About <span class="me">Me</span></h3>
+                <img src="About-image.png" alt="Its me" class="about-img">
+                <p class="about-p">Hello! I'm <span class="about-name">Jayaprakash</span>, a passionate college student with a keen interest in <span class="interest">web development and design</span>.<br> I  love creating websites that are not only functional but also user-friendly and visually appealing.  <br>My journey began with HTML and CSS, and I've since expanded my skills to include JavaScript, FIGMA, and various frameworks. <br>I'm enthusiastic about learning new technologies and applying them to build innovative web solutions. <br>Let's connect and collaborate on bringing digital ideas to life!</p>
+            </div>
+        </div>
+
+        <div class="skill-container" id="skills">
+            <div class="skill-info">
+                <h3 class="skill-head"><span class="my">My &nbsp;</span> Skills</h3>
+                <div class="tech-container">
+                    <h3 class="tech-skill">Technical &nbsp; <span class="t-skill">Skills</span></h3>
+                    <div class="skills">
+                        <h3>HTML</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </div>
+                    <div class="skills">
+                        <h3>CSS</h3>
+                        <span class="bar"><span class="css"></span></span>
+                    </div>
+                    <div class="skills">
+                        <h3>JavaScript</h3>
+                        <span class="bar"><span class="js"></span></span>
+                    </div>
+                    <div class="skills">
+                        <h3>Java</h3>
+                        <span class="bar"><span class="java"></span></span>
+                    </div>
+                    <div class="skills">
+                        <h3>C Programming</h3>
+                        <span class="bar"><span class="c"></span></span>
+                    </div>
+                </div>
+
+                <div class="prof-container">
+                    <h3 class="prof-skill">Professional &nbsp;<span class="p-skill">Skills</span></h3>
+                    <div class="professional">
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="70"></div>
+                            <div class="text">
+                                <big>70%</big>
+                                <small>Problem Solving</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="75"></div>
+                            <div class="text">
+                                <big>75%</big>
+                                <small>Communication</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="85"></div>
+                            <div class="text">
+                                <big>85%</big>
+                                <small>Team Work</small>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="90"></div>
+                            <div class="text">
+                                <big>90%</big>
+                                <small>Creativity</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-container" id="projects">
+            <div class="project-info">
+                <h3 class="project-head">Latest &nbsp;<span class="project">Project</span></h3>
+                <div class="project-boxes">
+                    <div class="project-box">
+                        <img src="project pic 1.jpg" alt="#">
+                        <div class="project-layer">
+                            <h4>E-Commerse Website</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quis ipsum quidem ut, aperiam esse vel tenetur aspernatur earum porro.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="project pic 2.png" alt="#">
+                        <div class="project-layer">
+                            <h4>Web Design</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quis ipsum quidem ut, aperiam esse vel tenetur aspernatur earum porro.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="project pic 3.jpg" alt="#">
+                        <div class="project-layer">
+                            <h4>Web Design</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quis ipsum quidem ut, aperiam esse vel tenetur aspernatur earum porro.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container" id="contact">
+            <div class="contact-info">
+                <h3 class="contact-head">Send me an &nbsp;<span class="Email">Email</span></h3>
+                <h3 class="contact-subhead">I'm Very Responsive to &nbsp;<sapn class="message">Messages</sapn></h3>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="ec41ae97-aa3a-4f92-9ef0-deb67fed2cb6">
+                    <input type="text" placeholder="Your Name" class="contact-input" required>
+                    <input type="email" placeholder="Your Email Id" class="contact-input" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                    <button class="contact-btn">Submit</button>
+                </form>
+            </div>
+            <div class="contact-img"><img src="contact-image.png" alt="image"></div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/ddd5f6bb1a.js" crossorigin="anonymous"></script>
+    
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
